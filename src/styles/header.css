@@ -1,0 +1,35 @@
+.header {
+  position: fixed; /* Fija el header en la parte superior */
+  top: 0; /* Posiciona el header en la parte superior */
+  left: 50%; /* Centra horizontalmente */
+  transform: translateX(-50%); /* Ajusta para centrar completamente */
+  width: 79.4%;
+  text-align: center;
+  background-color: rgba(70, 162, 228, 0.034); /* Ajusta el color de fondo según sea necesario */
+  padding: 7px 0; 
+  z-index: 1000; 
+
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces */
+  }
+  
+  .nav-links li {
+    display: inline-block;
+  }
+  
+  .nav-logo {
+    width: 100px; 
+    height: auto; /* Mantener proporciones */
+  }
