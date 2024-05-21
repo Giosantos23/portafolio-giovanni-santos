@@ -6,10 +6,12 @@ function About() {
 
     return (
       <div className="about-page">
+        <div className='Sobre-Mi'>
+            <h1>About Me</h1>
+        </div>
         <div className='PDF'>
             <a href={CVGiovanniSantos} download="CVGiovanniSantos.pdf" title='Descargar CV'>
             <img src={cvlogo} alt="Descargar CV" className="download-logo" />
-
             </a>
         </div>
         <div className="about-container">
