@@ -1,6 +1,5 @@
 import '../styles/about.css'
 import CVGiovanniSantos from '../assets/CVGiovanniSantos.pdf'
-import cvlogo from '../assets/cvlogo.png'
 
 function About() {
 
@@ -9,10 +8,16 @@ function About() {
         <div className='Sobre-Mi'>
             <h1>About Me</h1>
         </div>
+        <div className='foto1'>
+            <img src='/src/assets/foto3.jpg' alt='yo1' className='yo-izq'/>
+        </div>
         <div className='PDF'>
             <a href={CVGiovanniSantos} download="CVGiovanniSantos.pdf" title='Descargar CV'>
-            <img src={cvlogo} alt="Descargar CV" className="download-logo" />
+            <img src='/src/assets/cvlogo.png' alt="Descargar CV" className="download-logo" />
             </a>
+        </div>
+        <div className='foto2'>
+            <img src='/src/assets/foto1.jpg' alt='yo1' className='yo-der'/>
         </div>
         <div className="about-container">
           <h4 className='about-text'>

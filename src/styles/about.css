@@ -1,4 +1,4 @@
-  
+
 .about-container {
     position: absolute; /* Posiciona el contenedor de manera absoluta */
     top: 68%; /* Mueve el contenedor al 50% desde la parte superior */
@@ -17,9 +17,11 @@
     box-sizing: border-box;
   }
 .about-text{
-    color:black;
+    color:rgb(0,0,240);
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
 }
 .PDF {
     position: absolute; /* Posiciona el botón de manera absoluta */
@@ -36,5 +38,38 @@
   }
 
   .Sobre-Mi{
-      color: bisque;
+      color: rgb(255,165,0);
   }
+
+  .yo-izq{
+      width: 150px;
+      height: auto;
+      position: absolute;
+      top: 25%; /* Mueve el contenedor al 50% desde la parte superior */
+      left: 20%; /* Mueve el contenedor al 50% desde la parte izquierda */
+      transform: translate(-50%, -50%); /* Transforma el contenedor para centrarlo */
+      animation: pixelate 1s ease-in-out; /* Aplica la animación */
+
+
+  }
+
+  .yo-der{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 25%; /* Mueve el contenedor al 50% desde la parte superior */
+    right: 10%; /* Mueve el contenedor al 50% desde la parte izquierda */
+    transform: translate(-50%, -50%); /* Transforma el contenedor para centrarlo */
+    animation: pixelate 1s ease-in-out; /* Aplica la animación */
+
+}
+
+@keyframes pixelate {
+    0% {
+      filter: blur(20px);
+    }
+    100% {
+      filter: blur(0);
+    }
+}
+
