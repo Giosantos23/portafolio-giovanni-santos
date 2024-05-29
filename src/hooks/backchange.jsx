@@ -5,7 +5,6 @@ import { useLocation } from 'react-router-dom';
 const useBackgroundClass = () => {
     const location = useLocation();
   
-    // Define getBackgroundClass utilizando useCallback
     const getBackgroundClass = useCallback(() => {
       switch (location.pathname) {
         case '/proyects':

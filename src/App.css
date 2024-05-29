@@ -2,19 +2,16 @@
 
 .background-1 {
   background-image: url('/src/assets/back1.jpeg');
-  background-position: center;
+  background-size: cover;
 }
 
-/* Estilos para la imagen de fondo 2 */
 .background-2 {
   background-image: url('/src/assets/back9.jpeg');
-  background-position: center;
+  background-size: cover;
 }
 
-/* Estilos para la imagen de fondo 3 */
 .background-3 {
-  background-image: url('/src/assets/back7.jpeg');
-  background-position: center;
-  width: 100%;
-  border-end-end-radius: 5px;
+  background-image: url('/src/assets/back3.jpeg');
+  background-size: cover;
+  background-color: grey;
 }

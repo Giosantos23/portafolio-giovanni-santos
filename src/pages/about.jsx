@@ -8,30 +8,32 @@ function About() {
         <div className='Sobre-Mi'>
             <h1>About Me</h1>
         </div>
-        <div className='foto1'>
-            <img src='/src/assets/foto3.jpg' alt='yo1' className='yo-izq'/>
-        </div>
         <div className='PDF'>
             <a href={CVGiovanniSantos} download="CVGiovanniSantos.pdf" title='Descargar CV'>
-            <img src='/src/assets/cvlogo.png' alt="Descargar CV" className="download-logo" />
+              <img src='/src/assets/cvlogo.png' alt="Descargar CV" className="download-logo" />
             </a>
         </div>
-        <div className='foto2'>
-            <img src='/src/assets/foto1.jpg' alt='yo1' className='yo-der'/>
+
+        
+        <div className='image-row left'>
+        <img src='https://i.pinimg.com/originals/d2/0e/4f/d20e4f017003e8d391df53655f1755b6.gif' alt='palmera' className='yo-izq'/>
+        <img src='https://fustilugz.neocities.org/Random%20designs/feesh.gif' alt='pez' className='yo-der'/>
+        <img src='/src/assets/foto3.jpg' alt='yo' className='yo-1'/>
+
+        </div>
+      
+
+        <div className='image-row right'>
+          <img src='/src/assets/foto1.jpg' alt='yo2' className='yo-2'/>
+          <img src='/src/assets/foto4.jpeg' alt='yo2' className='yo-3'/>
+          <img src='https://i.pinimg.com/originals/65/ff/f7/65fff77d5b8876e261df9d11768ca298.gif' alt='yo2' className='yo-4'/>
         </div>
         <div className="about-container">
-          <h4 className='about-text'>
-            Mi nombre es Giovanni Santos y <br />  estoy en mi tercer año de
-            la carrera de Ingeniería en <br />
-            Ciencias de la Computación y Tecnologías de la Información <br />
-            en la Universidad del Valle de Guatemala. <br />
-            Durante estos tres años he desarrollado <br />
-            diferentes habilidades <br />
-            dentro y fuera del campo de la computación <br />
-            que aplico en mi día a día <br />
-            y que quiero seguir mejorando en el campo laboral.
-          </h4>
-        </div>
+
+      </div>
+
+        
+
       </div>
     );
   }

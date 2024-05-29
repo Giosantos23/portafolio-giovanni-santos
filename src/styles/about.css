@@ -1,68 +1,69 @@
 
-.about-container {
-    position: absolute; /* Posiciona el contenedor de manera absoluta */
-    top: 68%; /* Mueve el contenedor al 50% desde la parte superior */
-    left: 50%; /* Mueve el contenedor al 50% desde la parte izquierda */
-    transform: translate(-50%, -50%); /* Transforma el contenedor para centrarlo */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url('/src/assets/aboutcont3.png');
-    background-size: 75%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vh; /* Ajusta el ancho según sea necesario */
-    height: 90vh;
-    box-sizing: border-box;
-  }
-.about-text{
-    color:rgb(0,0,240);
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-
+.about-text {
+  color: rgb(0, 0, 240);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .PDF {
-    position: absolute; /* Posiciona el botón de manera absoluta */
-    top: calc(26% - 100px); /* Ajusta según sea necesario */
-    left: 50%; /* Mueve el botón al 50% desde la parte izquierda */
-    transform: translateX(-50%); /* Centra horizontalmente */
-    content: "Presiona para descargar";
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px; 
+  z-index: 10;
+  position: relative; 
+  content: "Presiona para descargar";
   }
   .download-logo {
-    width: 100px; /* Ajusta el ancho según sea necesario */
-    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
-    cursor: pointer; /* Cambia el cursor a una mano cuando se coloca sobre el logo */
+    width: 100px; 
+    height: auto; 
+    cursor: pointer; 
     
   }
 
   .Sobre-Mi{
-      color: rgb(255,165,0);
+    color: rgb(255, 165, 0);
+    text-align: center; 
+    margin-top: 60px; 
+  
+
+    
   }
 
-  .yo-izq{
-      width: 150px;
-      height: auto;
-      position: absolute;
-      top: 25%; /* Mueve el contenedor al 50% desde la parte superior */
-      left: 20%; /* Mueve el contenedor al 50% desde la parte izquierda */
-      transform: translate(-50%, -50%); /* Transforma el contenedor para centrarlo */
-      animation: pixelate 1s ease-in-out; /* Aplica la animación */
 
-
+  .image-row {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
   }
-
-  .yo-der{
-    width: 150px;
+  
+  .image-row.left {
+    justify-content: flex-start;
+  }
+  
+  .image-row.right {
+    justify-content: flex-end;
+  }
+  
+  .image-row img {
+    width: 100px; 
     height: auto;
-    position: absolute;
-    top: 25%; /* Mueve el contenedor al 50% desde la parte superior */
-    right: 10%; /* Mueve el contenedor al 50% desde la parte izquierda */
-    transform: translate(-50%, -50%); /* Transforma el contenedor para centrarlo */
-    animation: pixelate 1s ease-in-out; /* Aplica la animación */
+    margin: 0px 90px; 
+    animation: pixelate 1s ease-in-out;
+  }
+  .about-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
 
-}
+
+  }
+  
+  
+  
+  
 
 @keyframes pixelate {
     0% {
